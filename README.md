@@ -1,10 +1,10 @@
 # AlloraNetwork-Intelligent-Model-Builder-for-Network-Aware-Applications
 
-### This module provides a robust and extensible pipeline for building, training, and evaluating machine learning models using a feedforward neural network architecture tailored for AlloraNetwork use cases.
+#### This module provides a robust and extensible pipeline for building, training, and evaluating machine learning models using a feedforward neural network architecture tailored for AlloraNetwork use cases.
 
-### Whether the objective is network optimization, anomaly detection, or user behavior prediction, this script offers a configurable, production-ready foundation built with TensorFlow/Keras and scikit-learn.
+#### Whether the objective is network optimization, anomaly detection, or user behavior prediction, this script offers a configurable, production-ready foundation built with TensorFlow/Keras and scikit-learn.
 
-### The pipeline supports flexible preprocessing, automatic model compilation, and performance evaluation, making it ideal for Allora's smart agents and evaluators.
+#### The pipeline supports flexible preprocessing, automatic model compilation, and performance evaluation, making it ideal for Allora's smart agents and evaluators.
 ---
 
 ##  Key Features:
@@ -19,13 +19,13 @@
   ---
 ## How to Run the Model Script
 
- ### 1. Save the Script
+ ###1. Save the Script
  ```
  nano build_model.py
- '''
- ### 2. Paste the full Python code:
+  ```
+ ###2. Paste the full Python code:
 ```
- import tensorflow as tf
+import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from sklearn.model_selection import train_test_split
@@ -86,9 +86,8 @@ if __name__ == "__main__":
 
     test_loss, test_accuracy = model.evaluate(X_test_processed, y_test)
     print(f"✅ Test Accuracy: {test_accuracy:.4f}")
-
 ```
-###  3. Save and Close the File
+### 3. Save and Close the File
 #### If you're using nano:
 
 Press CTRL + O to save
@@ -97,11 +96,11 @@ Press Enter to confirm
 
 Press CTRL + X to exit
 
-### 4. Install Required Dependencies
+### 04.Install Required Dependencies
  ```
  pip install pandas scikit-learn tensorflow
 ```
-### 5. Run the script using Python: 
+### 5.Run the script using Python: 
  ```
  python build_model.py
  ```
