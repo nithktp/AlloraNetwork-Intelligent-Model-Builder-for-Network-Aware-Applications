@@ -19,11 +19,11 @@
   ---
 ## How to Run the Model Script
 
- ###1. Save the Script
+ ### 1.Save the Script
  ```
  nano build_model.py
   ```
- ###2. Paste the full Python code:
+ ### 2.Paste the full Python code:
 ```
 import tensorflow as tf
 from tensorflow import keras
